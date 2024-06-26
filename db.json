@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Luke Skywalker",
+      "email": "luke_skywalker@email.com",
+      "gender": "M"
+    },
+    {
+      "id": 2,
+      "name": "Leia Organa",
+      "email": "leia@example.com",
+      "gender": "F"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Inception",
+      "releaseDate": "2010-07-16",
+      "type": "Science Fiction"
+    },
+    {
+      "id": 2,
+      "name": "The Shawshank Redemption",
+      "releaseDate": "1994-09-23",
+      "type": "Drama"
+    },
+    {
+      "id": 3,
+      "name": "The Godfather",
+      "releaseDate": "1972-03-24",
+      "type": "Crime"
+    },
+    {
+      "id": 4,
+      "name": "The Dark Knight",
+      "releaseDate": "2008-07-18",
+      "type": "Action"
+    },
+    {
+      "id": 5,
+      "name": "Pulp Fiction",
+      "releaseDate": "1994-10-14",
+      "type": "Crime"
+    },
+    {
+      "id": 6,
+      "name": "Forrest Gump",
+      "releaseDate": "1994-07-06",
+      "type": "Drama"
+    },
+    {
+      "id": 7,
+      "name": "The Matrix",
+      "releaseDate": "1999-03-31",
+      "type": "Science Fiction"
+    },
+    {
+      "id": 8,
+      "name": "Fight Club",
+      "releaseDate": "1999-10-15",
+      "type": "Drama"
+    },
+    {
+      "id": 9,
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "releaseDate": "2001-12-19",
+      "type": "Fantasy"
+    },
+    {
+      "id": 10,
+      "name": "Star Wars: Episode IV - A New Hope",
+      "releaseDate": "1977-05-25",
+      "type": "Science Fiction"
+    }
+  ]
+}
