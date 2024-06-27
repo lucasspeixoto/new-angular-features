@@ -12,10 +12,10 @@ import { CardSkeletonComponent } from '../card-skeleton/card-skeleton.component'
   template: `
   <section>
   <div class="flex items-center m-2 gap-2">
-    <h2 class="text-xl font-semibold text-blue-600 ">Filmes</h2>
+    <h2 class="text-xl font-semibold text-blue-600 ">Movies</h2>
     <button
       class="self-end w-auto opacity-80 hover:opacity-100 m-2 p-2 border-none rounded-md text-[#fff] bg-yellow-800"
-      #trigger>Trigger
+      #trigger>Load movies
     </button>
   </div>
   @defer {

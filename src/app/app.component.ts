@@ -15,7 +15,7 @@ import { MoviesAbstractControlComponent } from './components/v18/movies-abstract
     MoviesNewSyntaxFlowComponent,
     MoviesAbstractControlComponent
   ],
-  template: ` <app-movies-abstract-control /> `,
+  template: ` <app-movies-new-syntax-flow /> `,
   styles: ``,
 })
 export class AppComponent {}
