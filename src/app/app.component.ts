@@ -3,6 +3,7 @@ import { MoviesBaseComponent } from './components/v16/movies-base.component';
 import { MoviesSignalsComponent } from './components/v16/movies-signals.component';
 import { MoviesDestroyRefComponent } from './components/v16/movies-destroy-ref.component';
 import { MoviesNewSyntaxFlowComponent } from './components/v17/movies-new-syntax-flow.component';
+import { MoviesAbstractControlComponent } from './components/v18/movies-abstract-control.component';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +13,9 @@ import { MoviesNewSyntaxFlowComponent } from './components/v17/movies-new-syntax
     MoviesSignalsComponent,
     MoviesDestroyRefComponent,
     MoviesNewSyntaxFlowComponent,
+    MoviesAbstractControlComponent
   ],
-  template: ` <app-movies-new-syntax-flow /> `,
+  template: ` <app-movies-abstract-control /> `,
   styles: ``,
 })
 export class AppComponent {}

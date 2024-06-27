@@ -54,8 +54,4 @@ export class MoviesSignalsComponent {
   public movies = toSignal(this.movies$, { initialValue: [] as Movie[] });
 
   public totalMovies = computed(() => this.movies().length);
-
-  public ngOnInit(): void {
-    //this.movieService.getMovies().subscribe((movies) => this.movies.set(movies));
-  }
 }
