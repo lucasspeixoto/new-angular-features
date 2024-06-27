@@ -3,14 +3,11 @@ import { inject, Injectable } from '@angular/core';
 import { Movie } from '../model/movie';
 import { Observable } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class MovieService {
   private apiUrl = 'http://localhost:3000';
 
   public http = inject(HttpClient);
-
   public getMovies(): Observable<Movie[]> {
     return this.http.get<Movie[]>(`${this.apiUrl}/movies`);
   }
